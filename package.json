@@ -1,0 +1,42 @@
+{
+  "name": "postcss-fontsize",
+  "version": "0.0.0",
+  "description": "This PostCSS plugin generates REM based font-size and line-height for every fontsize declaration. The line-height will be 1.5 times the fontsize value. A fallback pixel based font-size and line-height is also generated.",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "font-size",
+    "line-height",
+    "font",
+    "px",
+    "rem"
+  ],
+  "author": "Rich Bachman <rb@richbachman.com>",
+  "license": "MIT",
+  "repository": "richbachman/postcss-fontsize",
+  "bugs": {
+    "url": "https://github.com/richbachman/postcss-fontsize/issues"
+  },
+  "homepage": "https://github.com/richbachman/postcss-fontsize",
+  "dependencies": {
+    "postcss": "^6.0.16"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-postcss": "^2.0.2",
+    "jest": "^22.4.2"
+  },
+  "scripts": {
+    "test": "jest && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5",
+    "env": {
+      "jest": true
+    }
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}

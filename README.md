@@ -16,8 +16,6 @@ Output:
 
 ```css
 h1 {
-  font-size: 16px;
-  line-height: 24px;
   font-size: 1rem;
   line-height: 1.5rem;
 }
@@ -52,6 +50,23 @@ var processors = [
 		fallback: true
 	})
 ];
+```
+#### Including fallback option:
+```css
+h1 {
+    fontsize: 16
+}
+```
+
+Output:
+
+```css
+h1 {
+  font-size: 16px;
+  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
 ```
 
 See [PostCSS] docs for examples for your environment.

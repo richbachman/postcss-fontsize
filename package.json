@@ -1,6 +1,6 @@
 {
   "name": "postcss-fontsize",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "This PostCSS plugin generates REM based font-size and line-height for every fontsize declaration. The line-height will be 1.5 times the fontsize value. A fallback pixel based font-size and line-height is also generated.",
   "keywords": [
     "postcss",
@@ -36,9 +36,12 @@
       "jest": true
     },
     "rules": {
-      "max-len": ["error", {
-        "code": 100
-      }]
+      "max-len": [
+        "error",
+        {
+          "code": 100
+        }
+      ]
     }
   },
   "jest": {
